@@ -1,5 +1,3 @@
-import React from "react";
-
 const Explore = () => {
   return (
     <section className="w-[80%] max-w-[1200px] mx-[50px] mt-8">

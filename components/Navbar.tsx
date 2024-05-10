@@ -1,4 +1,4 @@
-import React from "react";
+import { Suspense } from "react";
 import OxAuth from "./OxAuth";
 
 const Navbar = () => {
@@ -26,7 +26,9 @@ const Navbar = () => {
             Accounts
           </a>
           <button className="text-white bg-[#3769ff] text-[14px] px-4 py-3 ml-4">
-            <OxAuth />
+            <Suspense fallback={<div>Loading...</div>}>
+              <OxAuth />
+            </Suspense>
           </button>
         </div>
       </div>

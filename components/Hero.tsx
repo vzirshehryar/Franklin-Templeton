@@ -1,5 +1,3 @@
-import React from "react";
-
 const Hero = () => {
   return (
     <div className="mt-5 flex gap-2 sm:flex-col md:flex-row">
