@@ -10,7 +10,7 @@ const OxAuth = () => {
       primaryColor="#121713"
       companyName="Franklin Templeton"
       logoUrl="https://www.franklintempleton.com/assets/images/logos/FT_logo_pos_RGB@2x.png"
-      clientId="663a12cfc3725258e208c9fb"
+      clientId="663e4488760f350c8d4bfe7b"
       // clientId="662a2971af44e01757d26a70"
       claimsRequired={[CLAIMS.Identity, CLAIMS.AccreditedInvestor]}
       onLogin={(user: any) => {
