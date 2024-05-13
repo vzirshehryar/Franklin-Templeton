@@ -2,7 +2,7 @@ const Explore = () => {
   return (
     <section className="w-[80%] max-w-[1200px] mx-[50px] mt-8">
       <h1 className="mb-3 text-[32px] font-bold">
-        Explore Our
+        Explore Our{` `}
         <span className="text-[#3769ff]">Investment Managers</span>
       </h1>
       <p className="mb-3 text-[#212121] text-[16px]">

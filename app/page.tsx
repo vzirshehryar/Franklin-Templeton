@@ -1,17 +1,11 @@
-export const dynamic = "force-dynamic";
+"use client";
+// export const dynamic = "force-dynamic";
 
-import Explore from "../components/Explore";
-import Footer from "../components/Footer";
-import Hero from "../components/Hero";
-import Navbar from "../components/Navbar";
+import dynamic from "next/dynamic";
 
+const HomePage = dynamic(() => import("../components/Home"), {
+  ssr: false,
+});
 export default function Home() {
-  return (
-    <>
-      <Navbar />
-      <Hero />
-      <Explore />
-      <Footer />
-    </>
-  );
+  return <HomePage />;
 }

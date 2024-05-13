@@ -1,5 +1,4 @@
-import { Suspense } from "react";
-import OxAuth from "./OxAuth";
+import { OnBoarding } from "0xuath-sdk-react";
 
 const Navbar = () => {
   return (
@@ -26,9 +25,7 @@ const Navbar = () => {
             Accounts
           </a>
           <button className="text-white bg-[#3769ff] text-[14px] px-4 py-3 ml-4">
-            <Suspense fallback={<div>Loading...</div>}>
-              <OxAuth />
-            </Suspense>
+            <OnBoarding buttonLabel="Continue with 0xAuth" />
           </button>
         </div>
       </div>
