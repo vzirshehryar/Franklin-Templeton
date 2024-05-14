@@ -1,7 +1,7 @@
 "use client";
 // export const dynamic = "force-dynamic";
 
-import { CLAIMS, Dashboard, XAuthProvider } from "0xuath-sdk-react";
+import { CLAIMS, Dashboard, XAuthProvider } from "@0xauth/sdk-react";
 import { useState } from "react";
 import Explore from "../components/Explore";
 import Footer from "../components/Footer";

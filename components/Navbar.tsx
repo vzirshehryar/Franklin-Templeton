@@ -1,4 +1,4 @@
-import { OnBoarding } from "0xuath-sdk-react";
+import { OnBoarding } from "@0xauth/sdk-react";
 
 const Navbar = () => {
   return (
